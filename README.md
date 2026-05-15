@@ -3,10 +3,10 @@
 Control Flow Graph
 
 searchBookByTitle
-<img width="1228" height="760" alt="Screenshot 2026-05-13 204424" src="https://github.com/user-attachments/assets/20f4f6fe-e236-4034-a5f7-501261f37caa" />
+<img width="1228" height="760" alt="Screenshot 2026-05-13 204424" src="https://github.com/user-attachments/assets/9d0267a9-9805-4ecf-ba58-c76e9634642f" />
 
 borrowBook
-<img width="1191" height="737" alt="image" src="https://github.com/user-attachments/assets/d0fe6e93-39fc-4053-96e3-d1592c0c3113" />
+<img width="1183" height="722" alt="Screenshot 2026-05-13 211658" src="https://github.com/user-attachments/assets/396c9cfb-582e-415c-84d5-602babd281ca" />
 
 Цикломатска комплексност
 Цикломатската комплексност на двете функции ја пресметувам според формулата V(G) = P + 1, каде што P е бројот на предикатни јазли (точки на одлучување каде што патот се дели на два).
@@ -33,7 +33,7 @@ if (!book.isBorrowed()) — Проверка на достапноста.
 
 
 Тест случаи според критериумот Every statement
-<img width="1271" height="392" alt="image" src="https://github.com/user-attachments/assets/9c5bc9d2-6915-4fee-89fe-77f8f2964147" />
+<img width="1271" height="393" alt="Screenshot 2026-05-15 223245" src="https://github.com/user-attachments/assets/e43613df-6782-4203-a564-67361343fa55" />
 TC1 (testSearchEveryStatement_EmptyTitle)
 Го активира фрлањето на исклучокот веднаш на почетокот. Ги покрива првите две линии.
 
@@ -48,7 +48,7 @@ TC3 (testSearchEveryStatement_NoResults)
 Минималниот број на тест случаи за оваа функција е 3, бидејќи имаме три меѓусебно исклучиви патеки кои мора да се поминат за да се допре секоја наредба во кодот (исклучок, успешно пронаоѓање и враќање null).
 
 Тест случаи според критериумот Every branch
-<img width="1227" height="235" alt="image" src="https://github.com/user-attachments/assets/91fdcf2b-7274-4a55-8992-b3015b89de00" />
+<img width="1228" height="235" alt="Screenshot 2026-05-16 002057" src="https://github.com/user-attachments/assets/e73db792-f577-4d8e-9fb0-42d80d78069e" />
 test 1 (Success): Поминува низ гранката каде што книгата е најдена (branch 2) и гранката каде што книгата не е позајмена (branch 4).
 
 test 2 (Already Borrowed): Поминува низ гранката каде што книгата е најдена (branch 2), но влегува во делот каде што книгата е веќе зафатена (branch 5).
@@ -58,7 +58,7 @@ test 3 (Not Found): Овој тест случај директно оди во 
 Mинималниот број е исто така 3, бидејќи со тие три сценарија ние веќе сме ги посетиле сите линии код (statements) барем еднаш.
 
 Тест случаи според критериумот Multiple condition
-<img width="1211" height="281" alt="image" src="https://github.com/user-attachments/assets/affec0d5-b829-4329-b51a-c34d16f2a893" />
+<img width="1211" height="281" alt="Screenshot 2026-05-16 003915" src="https://github.com/user-attachments/assets/1ec0b644-e234-497d-9aad-3d73db2445a2" />
 
 borrowBook
 Прв случај (T/X): Внесуваме празен наслов (title). Тука програмата веднаш фрла исклучок без да го гледа авторот.
@@ -73,4 +73,4 @@ searchBookByTitle
 Минимален број на тест случаи за ова функција според Multiple condition критериумот e 3.
 
 Слика од поминатите 8 тест случаи:
-<img width="1702" height="818" alt="image" src="https://github.com/user-attachments/assets/a103d42f-3d01-413a-a327-cd2c6a3afd21" />
+<img width="1702" height="819" alt="Screenshot 2026-05-16 004827" src="https://github.com/user-attachments/assets/dfa30748-f64c-4172-823b-0704de7e630b" />
