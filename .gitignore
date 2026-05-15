@@ -1,0 +1,6 @@
+# Ignore Gradle project-specific cache directory
+
+# Ignore Gradle build output directory
+.bulid
+# Ignore Kotlin plugin data
+.kotlin

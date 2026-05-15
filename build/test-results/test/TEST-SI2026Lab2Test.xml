@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SI2026Lab2Test" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-05-15T22:30:54.851Z" hostname="DESKTOP-LC7IVS6" time="0.038">
+  <properties/>
+  <testcase name="testSearchEveryStatement_NoResults()" classname="SI2026Lab2Test" time="0.014"/>
+  <testcase name="testSearchEveryStatement_EmptyTitle()" classname="SI2026Lab2Test" time="0.002"/>
+  <testcase name="testBorrowEveryBranch_NotFound()" classname="SI2026Lab2Test" time="0.001"/>
+  <testcase name="searchBookMultipleConditionTest()" classname="SI2026Lab2Test" time="0.001"/>
+  <testcase name="testBorrowEveryBranch_Success()" classname="SI2026Lab2Test" time="0.002"/>
+  <testcase name="testBorrowEveryBranch_AlreadyBorrowed()" classname="SI2026Lab2Test" time="0.001"/>
+  <testcase name="borrowBookMultipleConditionTest()" classname="SI2026Lab2Test" time="0.001"/>
+  <testcase name="testSearchEveryStatement_Success()" classname="SI2026Lab2Test" time="0.001"/>
+  <system-out><![CDATA[Borrowed successfully
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
